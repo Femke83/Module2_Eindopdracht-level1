@@ -1,0 +1,42 @@
+body{
+    background-color: #c3cfe2;
+}
+.card{
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin:15px;
+    padding: 5px;
+    width:355px;
+    height:340px; 
+    background-color: #fff;
+    display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 25% 25% 10% 15% 15%;
+    
+    &__text { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    }
+    &__image {
+        border-radius: 50%;
+        border-width: 150px;
+        display: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+    &__testimonial{
+    background-color: #686de0;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    
+}
+
+}
+     

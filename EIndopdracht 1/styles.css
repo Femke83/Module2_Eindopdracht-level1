@@ -1,0 +1,47 @@
+body {
+  background-color: #c3cfe2;
+}
+
+.card {
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 5px;
+  width: 355px;
+  height: 340px;
+  background-color: #fff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 25% 25% 10% 15% 15%;
+      grid-template-rows: 25% 25% 10% 15% 15%;
+}
+
+.card__text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.card__image {
+  border-radius: 50%;
+  border-width: 150px;
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card__testimonial {
+  background-color: #686de0;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 6;
+}
+/*# sourceMappingURL=styles.css.map */
